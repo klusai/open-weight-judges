@@ -92,7 +92,7 @@ TF2/TF3 scores use nested format: `{"accuracy": {"score": 5, "justification": ".
 ```bibtex
 @article{nadas2026openjudges,
   title={Cross-Task Transferability of Family-Diverse Open-Weight Judge Panels for Synthetic Text Evaluation},
-  author={Nada\c{s}, Mihai and Dio\c{s}an, Laura},
+  author={Nada\c{s}, Mihai Dan},
   year={2026},
   note={In preparation}
 }
