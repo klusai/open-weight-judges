@@ -1,0 +1,38 @@
+# Task definitions for the open-weight judge panel study.
+#
+# Each task maps to a rubric, input data, and evaluation parameters.
+# Scale harmonization: native scales per-task (1-10 for TF1, 1-5 for TF2/TF3).
+
+tasks:
+  tf1_generation:
+    rubric: tf1_generation
+    description: "English fable generation quality (TF1 paper)"
+    data_path: "data/tf1/samples.jsonl"
+    baseline_path: "data/tf1/baseline_scores.jsonl"
+    item_id_key: "item_id"
+    scale: [1, 10]
+    dimensions: [grammar, creativity, moral_clarity, adherence_to_prompt]
+    extra_fields: [best_age_group]
+    system_key: "generator_model"
+
+  tf2_translation:
+    rubric: tf2_translation
+    description: "EN-RO fable translation quality (TF2 paper)"
+    data_path: "data/tf2/samples.jsonl"
+    baseline_path: "data/tf2/baseline_scores.jsonl"
+    item_id_key: "item_id"
+    scale: [1, 5]
+    dimensions: [accuracy, fluency, coherence, style, cultural_pragmatic]
+    nested_scores: true
+    system_key: "translator_model"
+
+  tf3_generation:
+    rubric: tf3_generation
+    description: "Romanian native fable generation quality (TF3 paper)"
+    data_path: "data/tf3/samples.jsonl"
+    baseline_path: "data/tf3/baseline_scores.jsonl"
+    item_id_key: "item_id"
+    scale: [1, 5]
+    dimensions: [grammar, creativity, coherence, moral_clarity, adherence]
+    nested_scores: true
+    system_key: "generator_model"

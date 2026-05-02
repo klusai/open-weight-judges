@@ -1,0 +1,13 @@
+judge,dimension,same_family_mean,diff_family_mean,delta,t_stat,p_value,n_same,n_diff
+exaone3.5:32b,grammar,,8.002,,,,0,1000
+exaone3.5:32b,creativity,,6.773,,,,0,1000
+exaone3.5:32b,moral_clarity,,7.837,,,,0,1000
+exaone3.5:32b,adherence_to_prompt,,8.815,,,,0,1000
+granite3.3:8b,grammar,,9.225,,,,0,1000
+granite3.3:8b,creativity,,7.011,,,,0,1000
+granite3.3:8b,moral_clarity,,8.889,,,,0,1000
+granite3.3:8b,adherence_to_prompt,,9.934,,,,0,1000
+granite4.1-dense:30b,grammar,,8.312,,,,0,1000
+granite4.1-dense:30b,creativity,,6.34,,,,0,1000
+granite4.1-dense:30b,moral_clarity,,7.706,,,,0,1000
+granite4.1-dense:30b,adherence_to_prompt,,7.184,,,,0,1000

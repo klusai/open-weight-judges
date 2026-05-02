@@ -1,0 +1,10 @@
+task,judge,role,items,input_tokens,output_tokens,elapsed_seconds,endpoint,estimated_cost_usd
+tf2_translation,granite4.1-dense:30b,panel,96,0,0,2901.7,ollama (local),0.0
+tf2_translation,exaone3.5:32b,panel,0,0,0,0.0,ollama (local),0.0
+tf2_translation,granite3.3:8b,panel,0,0,0,0.0,ollama (local),0.0
+tf3_generation,granite4.1:30b,panel,100,116816,19650,1610.3,ollama (local),0.0
+tf3_generation,exaone3.5:32b,panel,100,124095,21658,2103.6,ollama (local),0.0
+tf3_generation,granite3.3:8b,panel,100,136581,25482,1021.5,ollama (local),0.0
+tf2_translation,openai/o4-mini,proprietary,96,151567,252061,1971.6,openrouter,1.28
+tf3_generation,google/gemini-2.5-flash,proprietary,100,105821,27714,203.3,openrouter,0.24
+tf3_generation,openai/o4-mini,proprietary,100,108546,184868,1313.8,openrouter,0.93

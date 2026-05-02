@@ -1,0 +1,39 @@
+{
+  "task": "tf1_generation",
+  "n_judges": 3,
+  "judges": [
+    "exaone3.5:32b",
+    "granite3.3:8b",
+    "granite4.1-dense:30b"
+  ],
+  "agreement": [
+    {
+      "dimension": "grammar",
+      "krippendorff_alpha": -0.2822,
+      "mean_weighted_kappa": 0.006,
+      "min_weighted_kappa": 0.0001,
+      "n_judge_pairs": 3
+    },
+    {
+      "dimension": "creativity",
+      "krippendorff_alpha": 0.1204,
+      "mean_weighted_kappa": 0.1533,
+      "min_weighted_kappa": 0.0687,
+      "n_judge_pairs": 3
+    },
+    {
+      "dimension": "moral_clarity",
+      "krippendorff_alpha": 0.0034,
+      "mean_weighted_kappa": 0.0845,
+      "min_weighted_kappa": 0.0059,
+      "n_judge_pairs": 3
+    },
+    {
+      "dimension": "adherence_to_prompt",
+      "krippendorff_alpha": -0.3405,
+      "mean_weighted_kappa": 0.0165,
+      "min_weighted_kappa": 0.0,
+      "n_judge_pairs": 3
+    }
+  ]
+}

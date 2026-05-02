@@ -1,0 +1,11 @@
+openai
+pyyaml
+click
+tqdm
+pandas
+numpy
+scipy
+scikit-learn
+krippendorff
+statsmodels
+python-decouple

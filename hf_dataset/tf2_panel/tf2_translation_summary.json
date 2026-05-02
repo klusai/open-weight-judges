@@ -1,0 +1,29 @@
+[
+  {
+    "judge": "granite4.1-dense:30b",
+    "task": "tf2_translation",
+    "total": 96,
+    "skipped": 0,
+    "evaluated": 96,
+    "errors": 96,
+    "total_input_tokens": 0,
+    "total_output_tokens": 0,
+    "elapsed_seconds": 2901.7
+  },
+  {
+    "judge": "exaone3.5:32b",
+    "task": "tf2_translation",
+    "total": 96,
+    "skipped": 96,
+    "evaluated": 0,
+    "errors": 0
+  },
+  {
+    "judge": "granite3.3:8b",
+    "task": "tf2_translation",
+    "total": 96,
+    "skipped": 96,
+    "evaluated": 0,
+    "errors": 0
+  }
+]

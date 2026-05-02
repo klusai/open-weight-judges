@@ -1,0 +1,46 @@
+{
+  "task": "tf2_translation",
+  "n_judges": 3,
+  "judges": [
+    "exaone3.5:32b",
+    "granite3.3:8b",
+    "granite4.1:30b"
+  ],
+  "agreement": [
+    {
+      "dimension": "accuracy",
+      "krippendorff_alpha": 0.1184,
+      "mean_weighted_kappa": 0.0599,
+      "min_weighted_kappa": -0.0853,
+      "n_judge_pairs": 3
+    },
+    {
+      "dimension": "fluency",
+      "krippendorff_alpha": -0.0656,
+      "mean_weighted_kappa": 0.0427,
+      "min_weighted_kappa": 0.0327,
+      "n_judge_pairs": 3
+    },
+    {
+      "dimension": "coherence",
+      "krippendorff_alpha": -0.0426,
+      "mean_weighted_kappa": -0.0238,
+      "min_weighted_kappa": -0.0243,
+      "n_judge_pairs": 3
+    },
+    {
+      "dimension": "style",
+      "krippendorff_alpha": 0.0114,
+      "mean_weighted_kappa": 0.0326,
+      "min_weighted_kappa": -0.0202,
+      "n_judge_pairs": 3
+    },
+    {
+      "dimension": "cultural_pragmatic",
+      "krippendorff_alpha": 0.1227,
+      "mean_weighted_kappa": 0.0865,
+      "min_weighted_kappa": -0.0237,
+      "n_judge_pairs": 3
+    }
+  ]
+}

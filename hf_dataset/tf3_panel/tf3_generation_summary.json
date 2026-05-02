@@ -1,0 +1,35 @@
+[
+  {
+    "judge": "granite4.1:30b",
+    "task": "tf3_generation",
+    "total": 100,
+    "skipped": 0,
+    "evaluated": 100,
+    "errors": 0,
+    "total_input_tokens": 116816,
+    "total_output_tokens": 19650,
+    "elapsed_seconds": 1610.3
+  },
+  {
+    "judge": "exaone3.5:32b",
+    "task": "tf3_generation",
+    "total": 100,
+    "skipped": 0,
+    "evaluated": 100,
+    "errors": 0,
+    "total_input_tokens": 124095,
+    "total_output_tokens": 21658,
+    "elapsed_seconds": 2103.6
+  },
+  {
+    "judge": "granite3.3:8b",
+    "task": "tf3_generation",
+    "total": 100,
+    "skipped": 0,
+    "evaluated": 100,
+    "errors": 0,
+    "total_input_tokens": 136581,
+    "total_output_tokens": 25482,
+    "elapsed_seconds": 1021.5
+  }
+]

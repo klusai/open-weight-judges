@@ -1,0 +1,13 @@
+judge,dimension,exact_match_rate,mean_abs_delta,n
+exaone3.5:32b,adherence_to_prompt,0.91,0.11,100
+exaone3.5:32b,creativity,0.92,0.08,100
+exaone3.5:32b,grammar,1.0,0.0,100
+exaone3.5:32b,moral_clarity,0.94,0.06,100
+granite3.3:8b,adherence_to_prompt,0.86,0.14,100
+granite3.3:8b,creativity,0.75,0.25,100
+granite3.3:8b,grammar,0.81,0.19,100
+granite3.3:8b,moral_clarity,0.68,0.46,100
+granite4.1:30b,adherence_to_prompt,0.73,0.39,100
+granite4.1:30b,creativity,0.84,0.16,100
+granite4.1:30b,grammar,0.85,0.21,100
+granite4.1:30b,moral_clarity,0.86,0.16,100
